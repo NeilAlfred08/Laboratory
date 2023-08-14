@@ -1,0 +1,32 @@
+baseurl = "https://username.github.io"
+DefaultContentLanguage = "en"
+title = "All About Myself"
+theme = "beautifulhugo"
+
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme"
+  subtitle = "Simple Information Aboy Myself"
+  logo = "img/NIcon.png"
+
+
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  facebook = "username"
+  twitter = "username"
+  linkedin = "username"
+  instagram = "username" 
+
+[[menu.main]]
+    parent = "hobby"
+    name = "My Hobbies"
+    url = "posts/hobby"
+    weight = 1
+
+[[menu.main]]
+    parent = "projects"
+    name = "Projects"
+    url = "posts/image"
+    weight = 1
+
